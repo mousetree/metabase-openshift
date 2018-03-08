@@ -37,7 +37,7 @@ objects:
       service: ${METABASE_SERVICE_NAME}
   spec:
     accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
     resources:
       requests:
         storage: ${POSTGRESQL_VOLUME_CAPACITY}
